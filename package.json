@@ -1,5 +1,5 @@
 {
-  "name": "tcreo",
+  "name": "simple-express-server",
   "version": "1.2.0",
   "description": "A simple tracking tool for your projects",
   "main": "index.js",

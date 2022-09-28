@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 
 const { MONGODB_URI } = process.env;
-console.log('MONGODB_URI', MONGODB_URI);
 
 if (!MONGODB_URI) {
   throw new Error('Defina la variable de entorno MONGODB_URI dentro del .env');

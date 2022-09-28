@@ -20,13 +20,11 @@ function errorHandler(err, req, res, next) {
 
 const mongoLoggerSave = (datos) =>
   new Promise(async (resolve, reject) => {
-    console.log('datos', datos);
     await dbConnect();
     try {
       const data = {
         credibility: datos
       };
-      console.log('data', data);
       await Credibility.create(data)
         .then(console.log('Credibildad guardado correctamente en mongoDB'))
         .catch((err) => console.error(err));

@@ -30,7 +30,6 @@ router.get('/plain-text', async function (req, res) {
         weightSpam: req.query.weightSpam
       }
       );
-      console.log('rows', rows)
     res.status(200).json(rows);
   } catch (error) {
     res.status(500).json({ error: error.message });
