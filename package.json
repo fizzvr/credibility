@@ -1,26 +1,26 @@
 {
-  "name": "express-api-starter",
+  "name": "tcreo",
   "version": "1.2.0",
-  "description": " A basic starter for an express.js API",
+  "description": "A simple tracking tool for your projects",
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
     "test": "mocha --exit"
   },
-  "keywords": [],
-  "author": "Babandeep Singh",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/babandeepsingh/Express-Starter-Kit.git"
-  },
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
-    "dotenv": "^8.2.0",
+    "dictionary-es": "^3.2.0",
+    "dotenv": "^8.6.0",
+    "emoji-strip": "^1.0.1",
     "express": "^4.17.1",
+    "express-validator": "^6.14.2",
     "helmet": "^4.4.1",
-    "morgan": "^1.10.0"
+    "moongose": "^1.0.0",
+    "morgan": "^1.10.0",
+    "nspell": "^2.1.5",
+    "washyourmouthoutwithsoap": "^1.0.2"
   },
   "devDependencies": {
     "mocha": "^8.2.1",
